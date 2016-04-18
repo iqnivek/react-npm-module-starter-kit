@@ -1,11 +1,11 @@
 {
   "name": "YOUR_PROJECT_NAME",
-  "version": "0.1.0",
   "description": "YOUR_PROJECT_DESCRIPTION",
-  "main": "index.js",
+  "version": "0.1.0",
+  "main": "./lib/index.js",
   "scripts": {
-    "build:lib": "babel src --out-dir lib",
-    "clean": "rimraf lib dist",
+    "build": "webpack",
+    "clean": "rimraf lib",
     "lint": "eslint src test",
     "prepublish": "npm run clean && npm run build"
   },
