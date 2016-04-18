@@ -1,0 +1,19 @@
+{
+  "name": "react-npm-module-starter-kit",
+  "version": "0.1.0",
+  "description": "A starter kit for creating an npm module with React components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iqnivek/react-npm-module-starter-kit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iqnivek/react-npm-module-starter-kit/issues"
+  },
+  "homepage": "https://github.com/iqnivek/react-npm-module-starter-kit#readme"
+}
