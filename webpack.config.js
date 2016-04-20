@@ -1,9 +1,10 @@
 module.exports = {
   context: __dirname,
+  devtool: 'cheap-module-source-map',
   entry: './src/index.jsx',
   output: {
-    filename: 'index.js',
-    path: './lib'
+    path: './lib',
+    filename: 'index.js'
   },
   resolve: {
     extensions: ['', '.js', '.jsx'],
