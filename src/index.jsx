@@ -2,7 +2,7 @@ import React from 'react';
 
 class YourRootComponent extends React.Component {
   render() {
-    return <div>hey</div>;
+    return <div>YOUR_MODULE_NAME is working! Edit it in src/index.jsx.</div>;
   }
 }
 
